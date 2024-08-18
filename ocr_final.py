@@ -119,7 +119,6 @@ if __name__ == "__main__":
     # ocr=extract_text_before_output(result)
     print(type(result))
 
-!pip install pyngrok
 
 from flask import Flask,jsonify,request
 from pyngrok import ngrok
