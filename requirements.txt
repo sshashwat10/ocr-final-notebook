@@ -1,0 +1,12 @@
+langchain
+transformers
+bitsandbytes
+accelerate
+paddlepaddle-gpu
+paddleocr>=2.0.1
+pillow
+numpy
+flask
+pyngrok
+werkzeug
+torch
