@@ -36,9 +36,7 @@ model = AutoModelForCausalLM.from_pretrained(
 # tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 
-!python -m pip install paddlepaddle-gpu -i https://pypi.tuna.tsinghua.edu.cn/simple
-!pip install "paddleocr>=2.0.1"
-!pip install pillow numpy
+
 
 from paddleocr import PaddleOCR
 
